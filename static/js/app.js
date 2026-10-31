@@ -307,7 +307,7 @@
       tIcon("brand-icon") +
       '<h1 class="brand-title">Queivzz</h1>' +
       "</div>" +
-      '<p class="tagline">Basta! + Kahoot! = Queivzz. ' +
+      '<p class="tagline">Basta! + Kahoot! = Queivzz.<br>' +
       "Responde con originalidad.</p>" +
       '<div class="home-actions">' +
       '<button class="btn btn--primary" type="button" data-action="create-room">Crear partida</button>' +
