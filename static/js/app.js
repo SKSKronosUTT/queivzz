@@ -307,14 +307,14 @@
       tIcon("brand-icon") +
       '<h1 class="brand-title">Queivzz</h1>' +
       "</div>" +
-      '<p class="tagline">Preguntas escritas, risas en grupo y puntos asignados a mano. ' +
-      "El anfitrión abre la sala y todos juegan desde el móvil.</p>" +
+      '<p class="tagline">Basta! + Kahoot! = Queivzz. ' +
+      "Responde con originalidad.</p>" +
       '<div class="home-actions">' +
       '<button class="btn btn--primary" type="button" data-action="create-room">Crear partida</button>' +
       '<button class="btn" type="button" data-action="show-join">Unirse a una partida</button>' +
       "</div>" +
-      '<p class="note home-note">Para entrar necesitas un código de sala de 6 caracteres. ' +
-      "Si te enviaron un enlace, el código ya viene cargado.</p>" +
+      '<p class="note home-note">Si eres invitado, ingresa los 6 caracteres. ' +
+      "Utiliza el link para acceder directamente.</p>" +
       "</section>";
   }
 
