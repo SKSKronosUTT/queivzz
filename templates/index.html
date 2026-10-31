@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es" data-palette="main">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#C2DABE">
+  <meta name="description" content="Queivzz es un juego de preguntas y respuestas para jugar en grupo desde el móvil.">
+  <title>Queivzz — Preguntas para jugar en grupo</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='img/queivzz-icon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <a class="skip-link" href="#view">Saltar al contenido</a>
+
+  <button id="palette-toggle" class="palette-button" type="button" hidden
+          aria-label="Cambiar paleta de colores" aria-pressed="false">
+    <svg class="palette-button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 3a9 9 0 1 0 0 18h1.4a1.9 1.9 0 0 0 1.2-3.4 1.7 1.7 0 0 1 1.1-3h1.7A3.6 3.6 0 0 0 21 11.1 8.9 8.9 0 0 0 12 3Z"
+            fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="7.6" cy="10.2" r="1.15" fill="currentColor"/>
+      <circle cx="11" cy="7.2" r="1.15" fill="currentColor"/>
+      <circle cx="15.3" cy="8" r="1.15" fill="currentColor"/>
+      <circle cx="16.6" cy="12.3" r="1.15" fill="currentColor"/>
+    </svg>
+    <span class="palette-button__name" id="palette-name">Main</span>
+  </button>
+
+  <div id="net-banner" class="net-banner" role="status" hidden>
+    Sin conexión. Reintentando…
+  </div>
+
+  <main id="view" class="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <noscript>
+    <p class="noscript">Queivzz necesita JavaScript activado para funcionar.</p>
+  </noscript>
+
+  <script src="{{ url_for('static', filename='js/api.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</body>
+</html>

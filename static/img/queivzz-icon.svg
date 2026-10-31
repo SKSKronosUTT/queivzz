@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Isotipo de Queivzz">
+  <title>Queivzz</title>
+  <g fill="currentColor">
+    <rect x="4" y="18" width="28" height="28" rx="3" transform="rotate(-0.6 18 32)" />
+    <rect x="36" y="17" width="28" height="28" rx="3" transform="rotate(0.5 50 31)" />
+    <rect x="68" y="18" width="28" height="28" rx="3" transform="rotate(-0.4 82 32)" />
+    <rect x="36" y="50" width="28" height="28" rx="3" transform="rotate(0.7 50 64)" />
+  </g>
+</svg>
