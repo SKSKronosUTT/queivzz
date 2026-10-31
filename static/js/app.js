@@ -1349,7 +1349,6 @@
       "aria-label",
       "Cambiar tipografía. Actual: " + fontLabel(local.font)
     );
-    focusBoard();
   }
 
   function cycleAlignment(button) {
@@ -1365,7 +1364,6 @@
       "aria-label",
       "Cambiar alineación del texto. Actual: " + alignmentLabel(local.align)
     );
-    focusBoard();
   }
 
   function updateSizeButtons() {
@@ -1395,7 +1393,6 @@
       textarea.dataset.size = String(local.size);
     }
     updateSizeButtons();
-    focusBoard();
   }
 
   function handleClick(event) {
